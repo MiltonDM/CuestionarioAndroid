@@ -1,58 +1,67 @@
 # CuestionarioAndroid
 diseño de cuestionario e implementarlo en una aplicación.
 
-# Brazo_Robotico_De_4_Ejes
-El propósito de esta práctica es desarrollar paso a paso un proyecto para controlar y programar un Brazo Robot, simulando las funciones básicas de un robot industrial. 
+# Proyecto
+El objetivo es crear una aplicación que realice un cuestionario de retroalimentación (feedback) de un
+curso determinado de su elección, una vez que el usuario conteste el cuestionario presionara el botón de
+enviar y la aplicación generara un correo electrónico adjuntando las respuestas en un archivo de texto.
+Queremos que sea creativo acerca de cómo lograr esto. Depende de usted de qué se tratarán las
+preguntas de la prueba y cómo desea presentarlas a su usuario. (Según la rúbrica, requerimos un
+mínimo de 8 preguntas y un máximo de 15 preguntas de prueba para la presentación correcta de la
+aplicación).
 
-# Proyecto Arduino con una interfaz en Java para Brazo .
+# Aprendizaje.
+Este proyecto se trata de combinar varias ideas y habilidades que hemos estado practicando a lo largo
+del curso. Incluyen:
+• Planificación del diseño de su aplicación antes de la codificación.
+• Tomando un diseño de aplicación del dibujo al código XML.
+• Creación, posicionamiento y vistas de estilo.
+• Crear interactividad a través de clics de botón y código Java.
+• Comentando y documentando su código.
 
 ***Integrantes Colaboradores***
 >Creado por: Milton Alexis Durán Moreno.<br />
->Creado por: Luis Eduardo Hernadez Magaña.<br />
->Creado por: Jorge Alderto Sanchez Maldonado.<br />
+>Creado por: Diego Salvador Suárez Quijas.<br />
+>Creado por: Marco Antonio .<br />
 
 ***Correo de los contactos***
 >Contacto: duran.milton.92@hotmail.com<br />
->Contacto: jorgealberto_sanchezmaldonado@outlook.com <br />
->Contacto: luis.hernandez.magana@hotmail.com<br />
+>Contacto: d.salvador0604a@gmail.com <br />
+>Contacto: MARCO<br />
 
-## El robot debe tener dos funciones básicas:
-- **Programar:** Registrar las posiciones de los brazos en tres dimensiones (cada registro es un "paso", un programa consiste en una serie de pasos). 
-- **Ejecutar:** Realice en secuencia las posiciones registradas en el "Programa". El robot ejecutará el programa hasta que se use el comando "ABORTAR
+## Función:
+Para completar este proyecto, deberá diseñar un diseño de cuestionario e implementarlo en una
+aplicación. El cuestionario puede ser sobre cualquier tema de su elección, y se le anima a crear uno
+sobre un tema que le parezca personalmente interesante.
+Querrá construir este proyecto en pasos.
+1. Primero, construye el diseño. Esto implica crear las preguntas del cuestionario, decidir qué tipo de
+prueba serán y formatearlas en el archivo de diseño xml para su actividad.
+2. En segundo lugar, querrá escribir un código que vincule el diseño a la actividad. Para el paso 3,
+querrá variables que se refieran a cada una de las respuestas al cuestionario.
+3. Finalmente, escribe el código para el botón que envie tus respuestas. Este código debe ejecutarse
+a través de cada pregunta en la aplicación, registrar la respuesta del usuario y luego mostrar los
+resultados del cuestionario adjunto en un archivo de texto en un mensaje de correo electrónico.
+Su proyecto será evaluado utilizando la rúbrica del proyecto.
 
 **Programas:**
-- Java (netbeans)
-- Arduino IDE
+- Android Studio.
 
-**Materiales:**
-- 2 Arduinos Uno
-- Protoboard.
-- Driver Uln2003 .
-- Motores paso a paso: 28BYJ-48.
-- ServoMotor: TowerPro SG90 9G Mini.
-- Potenciometro (10k).
-- Pantalla LCD.
-- Cables.
-- Leds.
-- Pulsadore (botones).
-- resistencias 200 homs
-- Base para poner los servos.
+**Diseño de Interfaz Android: **
+- ScrollView
+- RadioButton
+- RadioGroup
+- EditText
+- TextView
+- Button
+- View
 
 ## Características principales: 
- - El proyecto se usa para controlar robots con  4 DOF ("Grados de libertad").
- - El robot se debe controlar en modo "REMOTO" (a través de una programa en java por medio del puerto serial).
- - La información para el usuario se podrá proporcionar a través de LEDS de colores, una pantalla LCD de 2 líneas y/ó sonido (un zumbador).
- - Debe de contener un botón de paro de emergencia (Físico).     
- - Si existe un fallo y/o corte de energía, después de restablecerse la corriente el robot debe de continuar el programa (aunque este no se encuentre conectado a la aplicación).
- - Los brazos robóticos se pueden clasificar de acuerdo con el número de "articulaciones" o "Grados de libertad" (DOF) que tienen.             
-     - La "Base", o "Cintura", por lo general puede girar el brazo 180o o 360o, dependiendo del   tipo de Servo utilizado (aquí en este proyecto, se debe utilizar un motor a pasos para girar 360o)
-     - El "Hombro" es el responsable de "levantar o bajar" el brazo verticalmente 
-     - El "codo" hará que el brazo "avance o retroceda".
-     - La "Garra" o "Pinza" funciona abriendo o cerrándose para "agarrar cosas". 
-
-Librerias: para la comunicacion Arduino con Java
-
-    >RXTXcomm
+ - 8 Preguntas sobre temas de Android.
+ - Rotación.
+ - Validar las casillas de verificación.
+ - Boton para qu el Usuario envíe sus respuestas.
+ - 
+ >RXTXcomm
     >PanamaHitek_Arduino-3.0.0
 
 ## Diseño Interfaz Java
