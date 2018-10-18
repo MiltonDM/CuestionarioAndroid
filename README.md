@@ -59,8 +59,11 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
  - 8 Preguntas sobre temas de Android.
  - Rotación.
  - Validar las casillas de verificación.
- - Boton para qu el Usuario envíe sus respuestas.
- - 
+ - Boton para que el Usuario envíe sus respuestas.
+ - Boton que redirige al correo electrónico (hotmail y gmail).
+ - Boton que elimine todos los datos que el Usuario ingreso.
+ - Adjuntar un archivo de Texto con las respuestas ingresadas en el cuestinario.
+ 
  >RXTXcomm
     >PanamaHitek_Arduino-3.0.0
 
