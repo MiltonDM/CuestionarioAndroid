@@ -68,7 +68,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
     >PanamaHitek_Arduino-3.0.0
 
 ## Diseño Interfaz Android
-![alt tag](https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/interfaz.png)
+![alt tag](https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_1.png)
+![alt tag](https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_2.png)
 
 ## Resultados del Cuestionario.
 <table>
