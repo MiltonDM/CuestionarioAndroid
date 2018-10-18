@@ -1,5 +1,5 @@
 # CuestionarioAndroid
-diseño de cuestionario e implementarlo en una aplicación.
+Diseño de Cuestionario e Implementarlo en una Aplicación.
 
 # Proyecto
 El objetivo es crear una aplicación que realice un cuestionario de retroalimentación (feedback) de un
@@ -22,12 +22,12 @@ del curso. Incluyen:
 ***Integrantes Colaboradores***
 >Creado por: Milton Alexis Durán Moreno.<br />
 >Creado por: Diego Salvador Suárez Quijas.<br />
->Creado por: Marco Antonio .<br />
+>Creado por: Marco Antonio Moreno Cortes .<br />
 
 ***Correo de los contactos***
 >Contacto: duran.milton.92@hotmail.com<br />
 >Contacto: d.salvador0604a@gmail.com <br />
->Contacto: MARCO<br />
+>Contacto: themarka@live.com.mx <br />
 
 ## Función:
 Para completar este proyecto, deberá diseñar un diseño de cuestionario e implementarlo en una
@@ -67,10 +67,10 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
  >RXTXcomm
     >PanamaHitek_Arduino-3.0.0
 
-## Diseño Interfaz Java
+## Diseño Interfaz Android
 ![alt tag](https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/interfaz.png)
 
-## Diseño electrónico
+## Resultados del Cuestionario.
 <table>
 <tr>
 <td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/Motor%2028BYJ-48.jpg></td>
@@ -78,7 +78,7 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 </tr>
 </table>
 
-## Vista previa de Resultados:
+## Limpia de construcción
 <table>
 <tr>
 <td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/muestra_1.jpg></td>
