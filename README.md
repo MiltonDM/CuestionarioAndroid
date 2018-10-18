@@ -68,9 +68,9 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
     >PanamaHitek_Arduino-3.0.0
 
 ## Diseño Interfaz Android
-<table>
+<table >
 <tr>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_1.png></td>
+<td><img width="10" height="10" src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_1.png></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_2.png></td>
 </tr>
 </table>
