@@ -88,8 +88,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 ## Limpia de construcción
 <table>
 <tr>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png width="180" height="230"></td>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_Despues.png width="180" height="230"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png width="195" height="245"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_Despues.png width="195" height="245"></td>
 </tr>
 </table>
 
@@ -110,6 +110,7 @@ AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
 
 ***Link para descargar la aplicación***
 • https://github.com/MiltonDM/CuestionarioAndroid/blob/master/Cuestionario.rar
+
 **Codigo de las Clases Usadas:**
 • https://github.com/MiltonDM/CuestionarioAndroid/tree/master/Codigo_Clases
 
