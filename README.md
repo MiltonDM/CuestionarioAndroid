@@ -65,11 +65,6 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
  - Boton que elimine todos los datos que el Usuario ingreso.
  - Adjuntar un archivo de Texto con las respuestas ingresadas en el cuestinario.
  
-AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
-
-    >Clase: AndroidManifest
-    > <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-
 ## Diseño Interfaz Android
 <table >
 <tr>
@@ -97,6 +92,21 @@ AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_Despues.png width="180" height="230"></td>
 </tr>
 </table>
+
+AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
+
+    >Clase: AndroidManifest
+    > <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+## Imagenes de Codigo
+<table>
+<tr>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_2.png></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_3.png></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_4.png></td>
+</tr>
+</table>
+https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_2.png
 
 ## Referencias
 ***Android desde Cero:***
