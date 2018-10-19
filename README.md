@@ -97,7 +97,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 </table>
 
 ## Referencias
-**Android desde Cero:**
+***Android desde Cero:***
+
 **link:** https://code.tutsplus.com/es/tutorials/android-from-scratch-how-to-store-application-data-locally--cms-26853/<br />
 
 
