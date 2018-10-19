@@ -108,9 +108,11 @@ AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
 </tr>
 </table>
 
-## Link para descargar la aplicación.
+** Link para descargar la aplicación.**
 https://github.com/MiltonDM/CuestionarioAndroid/blob/master/Cuestionario.rar
-## Codigo de las Clases Usadas:
+*** Codigo de las Clases Usadas:***
+https://github.com/MiltonDM/CuestionarioAndroid/tree/master/Codigo_Clases
+
 
 ## Referencias
 ***Android desde Cero:***
