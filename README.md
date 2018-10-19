@@ -83,7 +83,7 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_1.png width="200" height="300"></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_2.png width="200" height="300"></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_3.png width="200" height="300"></td>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_4.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_4.png.jpg width="200" height="300"></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_5.png width="200" height="300"></td>
 </tr>
 </table>
