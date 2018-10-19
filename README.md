@@ -104,9 +104,9 @@ AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_2.png></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_3.png></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_4.png></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_5.png></td>
 </tr>
 </table>
-https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/codigo_2.png
 
 ## Referencias
 ***Android desde Cero:***
