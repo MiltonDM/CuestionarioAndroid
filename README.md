@@ -80,8 +80,11 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 ## Resultados del Cuestionario.
 <table>
 <tr>
-<td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/Motor%2028BYJ-48.jpg></td>
-<td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/Servos.jpg></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_1.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_2.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_3.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_4.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/resultado_5.png width="200" height="300"></td>
 </tr>
 </table>
 
