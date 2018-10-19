@@ -87,8 +87,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 ## Limpia de construcción
 <table>
 <tr>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png></td>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Despues.png></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png width="100" height="100"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_Despues.png width="100" height="100"></td>
 </tr>
 </table>
 
