@@ -10,14 +10,6 @@ preguntas de la prueba y cómo desea presentarlas a su usuario. (Según la rúbr
 mínimo de 8 preguntas y un máximo de 15 preguntas de prueba para la presentación correcta de la
 aplicación).
 
-# Aprendizaje.
-Este proyecto se trata de combinar varias ideas y habilidades que hemos estado practicando a lo largo
-del curso. Incluyen:
-• Planificación del diseño de su aplicación antes de la codificación.
-• Tomando un diseño de aplicación del dibujo al código XML.
-• Creación, posicionamiento y vistas de estilo.
-• Crear interactividad a través de clics de botón y código Java.
-• Comentando y documentando su código.
 
 ***Integrantes Colaboradores***
 >Creado por: Milton Alexis Durán Moreno.<br />
@@ -28,6 +20,15 @@ del curso. Incluyen:
 >Contacto: duran.milton.92@hotmail.com<br />
 >Contacto: d.salvador0604a@gmail.com <br />
 >Contacto: themarka@live.com.mx <br />
+
+# Aprendizaje.
+Este proyecto se trata de combinar varias ideas y habilidades que hemos estado practicando a lo largo
+del curso. Incluyen:
+• Planificación del diseño de su aplicación antes de la codificación.
+• Tomando un diseño de aplicación del dibujo al código XML.
+• Creación, posicionamiento y vistas de estilo.
+• Crear interactividad a través de clics de botón y código Java.
+• Comentando y documentando su código.
 
 ## Función:
 Para completar este proyecto, deberá diseñar un diseño de cuestionario e implementarlo en una
