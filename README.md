@@ -70,8 +70,9 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 ## Diseño Interfaz Android
 <table >
 <tr>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_1.png width="150" height="250"></td>
-<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_2.png width="150" height="250"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_1.png width="200" height="300"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_2.png width="200" height="300"></td>
+ <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_Interface/registro_3.png width="200" height="300"></td>
 </tr>
 </table>
 
