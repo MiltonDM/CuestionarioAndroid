@@ -65,8 +65,10 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
  - Boton que elimine todos los datos que el Usuario ingreso.
  - Adjuntar un archivo de Texto con las respuestas ingresadas en el cuestinario.
  
- >RXTXcomm
-    >PanamaHitek_Arduino-3.0.0
+AndroidManifest: para dar permiso de guardar y de escribir en el archivo.
+
+    >Clase: AndroidManifest
+    > <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
 ## Diseño Interfaz Android
 <table >
