@@ -87,9 +87,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 ## Limpia de construcción
 <table>
 <tr>
-<td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/muestra_1.jpg></td>
-<td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/muestra_2.jpg></td>
-<td><img src=https://github.com/MiltonDM/Brazo_Robotico_De_4_Ejes/blob/master/Imagenes/32651591_2206281489397157_2244328842627907584_n.jpg></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Despues.png></td>
 </tr>
 </table>
 
