@@ -97,6 +97,7 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 </table>
 
 ## Referencias
-**link:** http://panamahitek.com/arduino-java-facil-y-rapido/<br />
-**link:** http://panamahitek.com/libreria-panamahitek_arduino/<br />
+**Android desde Cero: Cómo Guardar Datos de la Aplicación de forma Local**
+**link:** https://code.tutsplus.com/es/tutorials/android-from-scratch-how-to-store-application-data-locally--cms-26853/<br />
+
 
