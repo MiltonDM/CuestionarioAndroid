@@ -90,7 +90,7 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
 <tr>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/CLear_Antes.png width="225" height="270"></td>
 <td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_Despues.png width="225" height="270"></td>
-<td><img src= width="225" height="270"></td>
+<td><img src=https://github.com/MiltonDM/CuestionarioAndroid/blob/master/imagen_limpiar/Clear_2.png width="225" height="270"></td>
  
 </tr>
 </table>
