@@ -64,6 +64,8 @@ Su proyecto será evaluado utilizando la rúbrica del proyecto.
  - Boton que redirige al correo electrónico (hotmail y gmail).
  - Boton que elimine todos los datos que el Usuario ingreso.
  - Adjuntar un archivo de Texto con las respuestas ingresadas en el cuestinario.
+ - El tamaño de texto estan definidos en sp
+ - La longitud se define en dp
  
 ## Diseño Interfaz Android
 <table >
