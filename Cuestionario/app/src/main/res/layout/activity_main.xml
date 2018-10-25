@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Registro Personal"
+            android:textColor="@android:color/background_dark"
+            android:paddingLeft="110dp"
+            app:fontFamily="@font/archivo_black" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Apellido"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:paddingLeft="125dp"
+            android:text="Semestre:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:layout_marginLeft="50dp"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/quantity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:layout_marginBottom="20dp"
+                android:text="+"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Cuestionario sobre Android"
+            android:textColor="@android:color/background_dark"
+            android:paddingLeft="70dp"
+            android:layout_marginBottom="10dp"
+            app:fontFamily="@font/archivo_black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:text="1.-La primer version de android Studio fue publicada en?"
+            app:fontFamily="@font/andada" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            
+            <RadioButton
+                android:id="@+id/primeraOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="16 de mayo del 2013"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/primeraOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:checked="false"
+                android:text="08 de diciembre del 2014"
+                android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.-Que lenguaje de programacion se usa Android Studio:"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp"
+                app:fontFamily="@font/andada" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/segundaOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAVA + XML"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/segundaOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="C++"
+                android:textSize="16sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:text="3.-El sistema Operativo es multiplataforma."
+            app:fontFamily="@font/andada"  />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/terceraOpcion1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Verdadero"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/terceraOpcion2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Falso"
+                android:textSize="16sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.-Donde se suben las aplicaciones de android"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            app:fontFamily="@font/andada" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/cuartaOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google pay"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/cuartaOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="IOS"
+                android:textSize="16sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:text="5.- Cuantas versiones existen de Android"
+            app:fontFamily="@font/andada"  />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/quintaOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/quintaOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/quintaOpcion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:text="6.- Quien invento el Lenguaje Android."
+            app:fontFamily="@font/andada" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sextaOpcion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Andy Rubin"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/sextaOpcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Luois Tomson"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_dark"
+            android:text="7.- Android es un sistema operativo basado en el núcleo Linux."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/septimaOpcion1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Verdadero"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/septimaOpcion2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Falso"
+                android:textSize="16sp"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botonSalvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="60dp"
+                android:text="Generar"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/BtnBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="60dp"
+                android:text="Borrar"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/textoNombreArchivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Archivo Plano"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+</ScrollView>
